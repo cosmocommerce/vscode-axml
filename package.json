@@ -2,7 +2,7 @@
     "name": "vscode-axml",
     "displayName": "支付宝小程序 antapp vscode axml",
     "description": "支付宝小程序 Ant App axml support/snippets for vscode",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "icon": "images/antapp.jpg",
     "publisher": "CosmoCommerce",
     "author": {
@@ -28,8 +28,6 @@
     ],
     "keywords": [
         "antapp",
-        "alibaba",
-        "ant",
         "alipay",
         "小程序",
         "支付宝",
