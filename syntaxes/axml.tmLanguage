@@ -4,7 +4,7 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>wxml</string>
+		<string>axml</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>&lt;!(?i:DOCTYPE)|&lt;(?i:html)|&lt;\?(?i:php)</string>
@@ -1043,7 +1043,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>text.html.wxml</string>
+	<string>text.html.axml</string>
 	<key>uuid</key>
 	<string>fc9f0c38-08c8-4d4a-9ca1-8c96a550d600</string>
 </dict>

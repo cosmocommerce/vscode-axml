@@ -13,7 +13,7 @@
     "prefix": "swiper",
     "body": [
       "<swiper indicator-dots=\"{{${1:indicatorDots}}}\" autoplay=\"{{${2:autoplay}}}\" interval=\"{{${3:interval}}}\" duration=\"{{${4:duration}}}\">",
-      "\t<block wx:for=\"{{${5:imgUrls}}}\">",
+      "\t<block a:for=\"{{${5:imgUrls}}}\">",
       "\t\t<swiper-item>",
       "\t\t\t<image src=\"{{${6:item}}}\" class=\"slide-image\" />",
       "\t\t</swiper-item>",
@@ -50,7 +50,7 @@
     "prefix": "checkboxGroup",
     "body": [
       "<checkbox-group>",
-      "\t<label wx:for=\"{{${1:item}}}\">",
+      "\t<label a:for=\"{{${1:item}}}\">",
       "\t\t<checkbox value=\"${1:item}.${3:name}\" />{{${1:item}.${4:value}}}",
       "\t</label>",
       "</checkbox-group>$5"
@@ -61,7 +61,7 @@
     "prefix": "radioGroup",
     "body": [
       "<radio-group>",
-      "\t<label class=\"$1\" wx:for=\"{{${2:item}}}\">",
+      "\t<label class=\"$1\" a:for=\"{{${2:item}}}\">",
       "\t\t<radio value=\"${2:item}.${3:name}\" />{{${2:item}.${4:value}}}",
       "\t</label>",
       "</radio-group>$5"
@@ -106,7 +106,7 @@
     "prefix": "actionSheet",
     "body": [
       "<action-sheet>",
-      "\t<block wx:for=\"{{${1:actionSheetItems}}}\">",
+      "\t<block a:for=\"{{${1:actionSheetItems}}}\">",
       "\t\t<action-sheet-item class=\"item\" data-name=\"{{${2:item}}}\" />{{${2:item}}}</action-sheet-item>",
       "\t</block>",
       "</action-sheet>$3"
@@ -153,24 +153,24 @@
     "body": "<map longitude=\"$1\" latitude=\"$2\"></map>$3",
     "description": "地图"
   },
-  "wx:for": {
-    "prefix": "wxfor",
-    "body": "wx:for=\"{{item in ${1:items}}}\"",
+  "a:for": {
+    "prefix": "afor",
+    "body": "a:for=\"{{item in ${1:items}}}\"",
     "description": "列表渲染"
   },
-  "wx:if": {
-    "prefix": "wxif",
-    "body": "wx:if=\"{{condition}}\"",
+  "a:if": {
+    "prefix": "aif",
+    "body": "a:if=\"{{condition}}\"",
     "description": "条件渲染if"
   },
-  "wx:elif": {
-    "prefix": "wxelif",
-    "body": "wx:elif=\"{{condition}}\"",
+  "a:elif": {
+    "prefix": "aelif",
+    "body": "a:elif=\"{{condition}}\"",
     "description": "条件渲染else if"
   },
-  "bindtap": {
-    "prefix": "bindtap",
-    "body": "bindtap=\"${1:tapname}\"",
+  "onTap": {
+    "prefix": "onTap",
+    "body": "onTap=\"${1:tapname}\"",
     "description": "绑定事件"
   }
 }

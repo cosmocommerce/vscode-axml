@@ -1,22 +1,22 @@
 {
-    "name": "vscode-wxml",
-    "displayName": "vscode wxml",
-    "description": "Wechat wxml support/snippets for vscode",
+    "name": "vscode-axml",
+    "displayName": "vscode axml",
+    "description": "Ant axml support/snippets for vscode",
     "version": "0.1.7",
     "icon": "images/weapp.png",
-    "publisher": "coderfee",
+    "publisher": "CosmoCommerce",
     "author": {
-        "email": "codefee@outlook.com",
-        "name": "coderfee",
-        "url": "http://coderfe.cn"
+        "email": "gongyuan.mao@jorigin.cn",
+        "name": "CosmoCommerce",
+        "url": "http://www.cosmocommerce.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/coderfe/vscode-wxml"
+        "url": "https://github.com/cosmocommerce/vscode-axml"
     },
     "bugs": {
-        "url": "https://github.com/coderfe/vscode-wxml/issues",
-        "email": "coderfee@outlook.com"
+        "url": "https://github.com/cosmocommerce/vscode-axml/issues",
+        "email": "gongyuan.mao@jorigin.cn"
     },
     "engines": {
         "vscode": "^1.5.0"
@@ -27,37 +27,37 @@
         "Other"
     ],
     "keywords": [
-        "weapp",
-        "wechat",
-        "weixin",
-        "微信",
-        "wxml"
+        "antapp",
+        "alibaba",
+        "ant",
+        "支付宝",
+        "axml"
     ],
     "contributes": {
         "languages": [
             {
-                "id": "wxml",
+                "id": "axml",
                 "aliases": [
-                    "wxml",
-                    "wxml"
+                    "axml",
+                    "axml"
                 ],
                 "extensions": [
-                    ".wxml"
+                    ".axml"
                 ],
                 "configuration": "./language-configuration.json"
             }
         ],
         "grammars": [
             {
-                "language": "wxml",
-                "scopeName": "text.html.wxml",
-                "path": "./syntaxes/wxml.tmLanguage"
+                "language": "axml",
+                "scopeName": "text.html.axml",
+                "path": "./syntaxes/axml.tmLanguage"
             }
         ],
         "snippets": [
             {
-                "language": "wxml",
-                "path": "./snippets/wxml.json"
+                "language": "axml",
+                "path": "./snippets/axml.json"
             }
         ]
     }
