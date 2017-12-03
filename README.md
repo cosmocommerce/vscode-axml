@@ -1,9 +1,11 @@
 # 支付宝小程序 axml
 
+感想并基于https://github.com/coderfe/vscode-wxml 这个插件是我为了方便开发自用的，欢迎修改。
+
 为 VSCode 提供 axml 语法支持及代码片段
 
-[![version](http://vsmarketplacebadge.apphb.com/version/coderfee.vscode-axml.svg)](http://vsmarketplacebadge.apphb.com/version/coderfee.vscode-axml.svg)
-[![installs](http://vsmarketplacebadge.apphb.com/installs/coderfee.vscode-axml.svg)](http://vsmarketplacebadge.apphb.com/installs/coderfee.vscode-axml.svg)
+[![version](https://vsmarketplacebadge.apphb.com/version/coderfee.vscode-axml.svg)](https://vsmarketplacebadge.apphb.com/version/coderfee.vscode-axml.svg)
+[![installs](https://vsmarketplacebadge.apphb.com/installs/coderfee.vscode-axml.svg)](https://vsmarketplacebadge.apphb.com/installs/coderfee.vscode-axml.svg)
 
 ## 安装
 
@@ -14,7 +16,7 @@
 
 键入关键词，然后回车。关键词不区分大小写
 
-![vscode-antapp-snippets](http://oaz5uxplb.bkt.clouddn.com/vscode-axml.gif)
+![vscode-antapp-snippets](https://oaz5uxplb.bkt.clouddn.com/vscode-axml.gif)
 
 #### 代码示例
 
