@@ -2,8 +2,8 @@
     "name": "vscode-axml",
     "displayName": "vscode axml",
     "description": "Ant axml support/snippets for vscode",
-    "version": "0.1.7",
-    "icon": "images/weapp.png",
+    "version": "0.1.8",
+    "icon": "images/antapp.jpg",
     "publisher": "CosmoCommerce",
     "author": {
         "email": "gongyuan.mao@jorigin.cn",
